@@ -22,6 +22,14 @@ public class TrackCoach implements Coach {
 		return "Just Do It: " + fortuneService.getFortune();
 	}
 
+	public void doMyStartup() {
+		System.out.println("Starting the Application");
+	}
+	
+	public void doMyDestroy() {
+		System.out.println("Stopping the application");
+	}
+
 }
 
 
